@@ -1,14 +1,13 @@
-.h_f {
+nav{
 display: flex;
 justify-content: space-between;
 align-items: center;
 flex-wrap: wrap;
 padding: 1rem;
+background-color: whitesmoke;
 }
 
-nav{
-    background-color: whitesmoke;
-}
+
 nav ul {
 margin: 1rem;
 }
@@ -41,7 +40,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 gap: 1.5rem;
-padding: 2.5rem;
+padding: 8rem 2.5rem;
 flex-wrap: wrap;
 position: relative;
 z-index: 1;
@@ -67,7 +66,9 @@ z-index: -1;
 #banner_green{
 color: #4caf50;
 }
-
+#banner h1{
+    max-width: 400px;
+}
 #banner_white, #banner small{
 color: white;
 }
@@ -219,11 +220,13 @@ justify-content: center;
 align-items: center;
 gap: 1rem;
 border-radius: 15px;
+opacity: .8;
 }
 
 #access_list li{
 list-style: none;
 display: inline;
+font-size: 120%;
 }
 
 .h_f> button, #banner_button_1, #access_button{
@@ -243,10 +246,12 @@ gap: 1rem;
 
 #access_list_1::before{
 content: ""; 
-width: 12px;
-height: 12px;
+width: 8px;
+height: 8px;
 background-color: black;
 border-radius: 50%;
 display: inline-block;
 gap: .5rem;;
+margin-right: .25rem;
 }
+
