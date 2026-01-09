@@ -132,6 +132,30 @@ button {
     font-weight: bold;
 }
 
+#brain-side h3 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+
 #brain-side small{
     opacity: .5;
+}
+
+.feature-list{
+    list-style: none;
+    padding: 0;
+}
+
+.feature-list li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.feature-list li::before{
+    content: url("../assets/second_brain/CheckCircle.png");
+    margin-right: .5rem;
 }
