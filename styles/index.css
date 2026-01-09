@@ -3,10 +3,9 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 flex-wrap: wrap;
-padding: 1rem;
+padding: 2rem 1rem;
 background-color: whitesmoke;
 }
-
 
 nav ul {
 margin: 1rem;
@@ -255,3 +254,35 @@ gap: .5rem;;
 margin-right: .25rem;
 }
 
+#foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(1, 1, 29);
+    color: white;
+    padding: 2rem 1rem;
+}
+
+#upper_footer{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+padding: 2rem 1rem;
+}
+
+#lower_footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+table{
+    border-collapse: collapse;
+}
+
+#lower_footer > table > thead > tr > td{
+    border-top: thin solid gray;
+}
