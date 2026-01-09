@@ -107,11 +107,6 @@ button {
     color: white;
 }
 
-#social-links {
-    display: flex;
-    margin: 1rem;
-}
-
 #notes {
     display: flex;
     flex-direction: column;
@@ -294,4 +289,25 @@ button {
 hr {
     width: 100%;
     background-color: gray;
+}
+
+#social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 1rem;
+    gap: 1rem;
+    padding-right: 1rem;
+}
+
+#icons{
+    display: flex;
+    gap: .5rem;
+}
+
+#icons a{
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    color: white;
 }
