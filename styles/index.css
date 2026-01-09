@@ -300,12 +300,12 @@ hr {
     padding-right: 1rem;
 }
 
-#icons{
+#icons {
     display: flex;
     gap: .5rem;
 }
 
-#icons a{
+#icons a {
     height: 20px;
     width: 20px;
     background-color: transparent;
