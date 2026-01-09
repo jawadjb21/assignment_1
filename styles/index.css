@@ -1,0 +1,19 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: whitesmoke;
+}
+nav ul {
+    margin: 1rem;
+}
+
+nav li{
+    display: inline;
+}
+
+nav li a{
+    text-decoration: none;
+}
