@@ -1,21 +1,61 @@
-nav{
+.h_f {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1rem;
+    flex-wrap: wrap;
     padding: 1rem;
     background-color: whitesmoke;
 }
+
 nav ul {
     margin: 1rem;
 }
 
-nav li{
+nav li {
     display: inline;
     margin: 5px;
 }
 
-nav li a{
+nav li a {
     color: black;
+    font-weight: bolder;
     text-decoration: none;
+}
+
+button {
+    border: thin solid black;
+    border-radius: 5px;
+}
+
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#banner::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-image: url("../assets/banner/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    z-index: -1;
+}
+
+
+#social-links{
+    display: flex;
+    margin: 1rem;
 }
