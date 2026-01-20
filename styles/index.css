@@ -333,6 +333,9 @@ hr {
         flex-direction: column;   
     }
 
+    #banner{
+        padding: 4rem;
+    }
     #notes{
         margin: 0 auto;
     }
@@ -353,5 +356,9 @@ hr {
     .card p{
         max-width: 100%;
         text-align: center;
+    }
+
+    #brain-side{
+        padding: 2.5rem;
     }
 }
