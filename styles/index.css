@@ -172,7 +172,10 @@ button {
     margin: 5rem 2rem;
     flex-wrap: wrap;
 }
-
+#second-brain img{
+    width: 100%;
+    max-width: 500px;
+}
 #second-brain>#brain-side {
     display: flex;
     flex-direction: column;
@@ -344,8 +347,7 @@ hr {
 
     .card{
         height: auto;
-        min-height: 250px;
-        width: 90%;
+        width: 100%;
     }
 
     .card p{
