@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+    /* margin: 0; */
+    /* padding: 0; */
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -127,7 +133,8 @@ button {
 #deck {
     display: flex;
     justify-content: center;
-    width: fit-content;
+    align-items: center;
+    width: 100%;
     flex-wrap: wrap;
 }
 
@@ -136,10 +143,11 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: fit-content;
+    width: 100%;
+    max-width: 250px;
     gap: 1rem;
     border: thin solid whitesmoke;
-    margin: .5rem;
+    margin: 1rem auto;
     padding: 3rem 1.5rem;
     border-radius: 15px;
     box-shadow: 5px 5px 3px black;
@@ -311,4 +319,37 @@ hr {
     width: 20px;
     background-color: transparent;
     color: white;
+}
+
+.hide{
+    display: none !important;
+}
+
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;   
+    }
+
+    #notes{
+        margin: 0 auto;
+    }
+    #deck{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 0;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .card{
+        height: auto;
+        min-height: 250px;
+        width: 90%;
+    }
+
+    .card p{
+        max-width: 100%;
+        text-align: center;
+    }
 }
