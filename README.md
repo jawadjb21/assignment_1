@@ -64,46 +64,10 @@
 
 ![Early Access Section](Sections/Early%20Access%20Section.png)
 
-- A centered title and subtitle
+- A centred title and subtitle
 - Below the subtitle:
 
   - A simple message
   - A “Get Early Access” button with an icon
 
 - Two ending messages below the button
-
----
-
-### 🔸 Interaction & Code Quality
-
-- Hover effects on all buttons
-- Minimum **5 GitHub commits**
-- **No Lorem Ipsum** text anywhere on the website
-
----
-
-## 🛠️ Tech Stack
-
-- HTML5
-- CSS3
-- No JavaScript
-- No CSS frameworks or libraries
-
----
-
-## ✅ Submission Checklist
-
-- Figma layout followed correctly
-- Proper alignment and spacing
-- Clean and readable HTML & CSS
-- Live site deployed
-- Public GitHub repository
-
----
-
-## 📂 Submission Format
-
-- **GitHub Repository Link**
-- **Live Website Link (GitHub Pages)**
-
----
